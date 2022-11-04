@@ -107,7 +107,7 @@ class PunchCard(object):
             "{"):jsontext.rfind(";")].replace(" ", ""))
 
         geo_text = jsontext['geo_api_info']
-        geo_text = geo_text.replace("false", "False").replace("true", "True")
+        geo_text = geo_text.replace("false", "False").replace("true", "True").replace("null","\"\"")
         geo_obj = eval(geo_text)['addressComponent']
         area = geo_obj['province'] + " " + \
             geo_obj['city'] + " " + geo_obj['district']
