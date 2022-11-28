@@ -19,9 +19,8 @@
    * USERNAME：中南大学学工号
 
    * PASSWORD：信息门户密码
-   ![示例配置](https://user-images.githubusercontent.com/62862189/204195782-e44f4f70-7bf3-4158-9709-4cebba8d6ff3.png)
-
    
+   ![示例配置](https://user-images.githubusercontent.com/62862189/204195782-e44f4f70-7bf3-4158-9709-4cebba8d6ff3.png)
 
 3. 启动定时打卡
 
