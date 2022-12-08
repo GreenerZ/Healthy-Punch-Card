@@ -140,6 +140,8 @@ def main(username, password):
     res = helper.post()
     if res['e'] == 0:
         print('填报完成')
+    elif res['e']==1 and res['m']=='今天已经填报了':
+        print('重复打卡')
     else:
         raise Exception(res['m'])
 
